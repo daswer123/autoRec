@@ -1,0 +1,67 @@
+.auth {
+  margin: 3rem 3rem;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  background-color: white;
+
+  padding: 2rem;
+
+  &__input {
+    outline: 0;
+    border: 0;
+    background: #f2f2f2;
+    width: 100%;
+
+    margin-bottom: 2rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &__btn {
+    text-transform: uppercase;
+    outline: 0;
+    width: 100%;
+    background: $green-light;
+
+    border: 0;
+    padding: 1.5rem;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: all 0.3 ease;
+    cursor: pointer;
+
+    margin-bottom: 2rem;
+
+    &:hover,
+    &:focus {
+      background-color: darken($green-light, 10%);
+      transition: 0.3s all;
+    }
+  }
+
+  &__add {
+    font-size: 1.4rem;
+    color: $grey;
+  }
+
+  &__change {
+    &:link,
+    &:visited {
+      color: $green-light;
+    }
+
+    &:hover,
+    &:active {
+      color: darken($green-light, 20%);
+      transition: 0.3s all;
+    }
+  }
+
+  &--login {
+    // display: none;
+  }
+
+  &--register {
+    display: none;
+  }
+}
