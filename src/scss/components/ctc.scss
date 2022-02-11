@@ -28,7 +28,6 @@
 
   &__property {
     position: absolute;
-    top: 0;
     left: 0;
     z-index: 100;
 
@@ -41,73 +40,86 @@
   }
 
   &__property--reg {
-    top: 105px;
+    top: 113px;
     left: 210px;
   }
 
   &__property--vin {
-    top: 145px;
+    top: 153px;
     left: 60px;
   }
 
   &__property--marka {
     letter-spacing: -1px;
 
-    top: 163px;
+    top: 172px;
     left: 150px;
   }
 
   &__property--type {
-    top: 180px;
+    top: 192px;
     left: 90px;
   }
 
   &__property--category {
-    top: 200px;
-    left: 260px;
+    top: 212px;
+    left: 265px;
   }
 
   &__property--year {
-    top: 220px;
+    top: 232px;
     left: 180px;
   }
 
   &__property--shasi {
-    top: 278px;
-    left: 160px;
+    top: 252px;
+    left: 110px;
 
     min-width: 165px;
   }
 
   &__property--kuzov {
-    top: 296px;
-    left: 170px;
+    top: 270px;
+    left: 110px;
   }
 
   &__property--color {
-    top: 316px;
+    top: 291px;
     left: 70px;
   }
 
   &__property--power {
-    top: 336px;
-    left: 265px;
+    top: 311px;
+    left: 266px;
   }
 
   &__property--eco {
-    //    top: 326px;
-    // left: 70px;
+    top: 332px;
+    left: 190px;
   }
 
   &__property--pass {
+    top: 350px;
+    left: 182px;
   }
 
   &__property--mass-max {
+    top: 370px;
+    left: 250px;
   }
 
   &__property--mass {
+    top: 390px;
+    left: 210px;
   }
 
   &__property--number {
+    bottom: 8px;
+    left: 50%;
+
+    font-size: 2.3rem;
+    color: darken(crimson, 20%);
+
+    transform: translateX(-40%);
   }
 }
