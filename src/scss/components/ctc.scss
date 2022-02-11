@@ -31,39 +31,72 @@
     top: 0;
     left: 0;
     z-index: 100;
+
+    font-size: 1.6rem;
+
+    font-family: Comic-Sans, sans-serif;
+
+    // font-weight: bold;
+    // color: darken($grey, 20%);
   }
 
   &__property--reg {
+    top: 105px;
+    left: 210px;
   }
 
   &__property--vin {
+    top: 145px;
+    left: 60px;
   }
 
   &__property--marka {
+    letter-spacing: -1px;
+
+    top: 163px;
+    left: 150px;
   }
 
   &__property--type {
+    top: 180px;
+    left: 90px;
   }
 
   &__property--category {
+    top: 200px;
+    left: 260px;
   }
 
   &__property--year {
+    top: 220px;
+    left: 180px;
   }
 
   &__property--shasi {
+    top: 278px;
+    left: 160px;
+
+    min-width: 165px;
   }
 
   &__property--kuzov {
+    top: 296px;
+    left: 170px;
   }
 
   &__property--color {
+    top: 316px;
+    left: 70px;
   }
 
   &__property--power {
+    top: 336px;
+    left: 265px;
   }
 
   &__property--eco {
+    //    top: 326px;
+    // left: 70px;
   }
 
   &__property--pass {
