@@ -1,0 +1,68 @@
+.spending {
+  margin: 0 auto;
+
+  &__sort {
+    display: flex;
+  }
+
+  &__sort-btn {
+    width: 30%;
+  }
+
+  &__all {
+  }
+
+  &__content {
+  }
+
+  &__title {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  &__table {
+    border-collapse: collapse;
+
+    font-size: 1rem;
+    font-family: sans-serif;
+    min-width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+
+  & thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  & th,
+  & td {
+    padding: 12px 15px;
+  }
+
+  & tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+
+  & tbody tr {
+    background-color: #f3f3f3;
+  }
+
+  & tbody tr:last-of-type {
+    border-bottom: 2px solid $green-dark;
+  }
+
+  & .btn {
+    display: block;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+  }
+}
+.btn {
+  //   display: block;
+  //   margin-top: 2rem;
+  background-color: $green-dark;
+  //   width: 30%;
+}

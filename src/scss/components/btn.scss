@@ -1,0 +1,21 @@
+.btn {
+  text-transform: uppercase;
+  outline: 0;
+  width: 60%;
+  background: $green-light;
+  border-radius: 10px;
+
+  border: 0;
+  padding: 1.5rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  transition: all 0.3 ease;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: darken($green-light, 10%);
+    transition: 0.3s all;
+  }
+}

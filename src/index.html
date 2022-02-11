@@ -21,23 +21,25 @@
 
 <body>
   <div class="container-nm">
-    <!-- LOGIN -->
 
-    <!-- <form action="#" class="auth auth--login active" action="#" method="GET">
+    <!-- LOGIN -->
+    <!-- 
+    <form action="#" class="auth auth--login active" action="#" method="GET">
       <input type="text" class="auth__input" name="username" placeholder="Введите логин">
       <input type="password" class="auth__input" name="password" placeholder="Введите пароль">
-      <button type="submit" class="auth__btn">Login</button>
+      <button type="submit" class="auth__btn btn">Login</button>
       <p class="auth__add"><a href="#login" class="auth__change">Создать новый аккаунт</a></p>
     </form> -->
 
     <!-- REGISTER -->
-
-    <!-- <form action="#" class="auth auth--register" action="#" method="POST">
+    <!-- 
+    <form action="#" class="auth auth--register" action="#" method="POST">
       <input type="text" class="auth__input" name="username" placeholder="Придумайте логин">
       <input type="password" class="auth__input" name="password" placeholder="Придумайте пароль">
-      <button type="submit" class="auth__btn">Register</button>
+      <button type="submit" class="auth__btn btn">Register</button>
       <p class="auth__add"> <a href="#register" class="auth__change">Войти в аккаунт</a></p>
     </form> -->
+
 
     <!-- HEADER -->
     <header class="header">
@@ -49,34 +51,11 @@
 
 
     <!-- CAR -->
-    <main class="car ">
+    <!-- CTC ON IMAGE -->
+    <!-- <main class="car ">
       <section class="car__ctc ctc">
-        <!-- <ul class="ctc__list">
-          <li class="ctc__item">
-            <b class="ctc__name">Год Производства:</b>
-            <p class="ctc__value">2021</p>
-          </li>
-          <li class="ctc__item">
-            <b class="ctc__name">Год Производства:</b>
-            <p class="ctc__value">2021</p>
-          </li>
-          <li class="ctc__item">
-            <b class="ctc__name">Год Производства:</b>
-            <p class="ctc__value">2021</p>
-          </li>
-          <li class="ctc__item">
-            <b class="ctc__name">Год Производства:</b>
-            <p class="ctc__value">2021</p>
-          </li>
-          <li class="ctc__item">
-            <b class="ctc__name">Год Производства:</b>
-            <p class="ctc__value">2021</p>
-          </li>
-          <li class="ctc__item">
-            <b class="ctc__name">Год Производства:</b>
-            <p class="ctc__value">2021</p>
-          </li>
-        </ul> -->
+
+        
         <img class="ctc__img" src="img/ctc-empty2.jpeg" alt="empty ctc">
         <p class="ctc__property ctc__property--reg">В724НТ190</p>
         <p class="ctc__property ctc__property--vin">X9W113300E0013000</p>
@@ -89,21 +68,148 @@
         <p class="ctc__property ctc__property--color">СНЕЖНАЯ КОРОЛЕВА</p>
         <p class="ctc__property ctc__property--power">72(97,9)</p>
         <p class="ctc__property ctc__property--eco">ЧЕТВЕРТНЫЙ</p>
-        <pre class="ctc__property ctc__property--pass">63НР      636752</pre>
+        <p class="ctc__property ctc__property--pass-ser">63НР</p>
+        <p class="ctc__property ctc__property--pass-num">636752</p>
         <p class="ctc__property ctc__property--mass-max">1578</p>
         <p class="ctc__property ctc__property--mass">1163</p>
-        <p class="ctc__property ctc__property--number">61 24 № 192204</p>
+        <p class="ctc__property ctc__property--number-ser">61 24</p>
+        <p class="ctc__property ctc__property--number-num"> № 192204</p>
       </section>
       <section class="car__info">
         <p class="car__info-mileage">233.000км</p>
         <a href="#" class="car__info-spending">Траты</a>
       </section>
-    </main>
+    </main> -->
+
+    <!-- CREATE FORM -->
+    <!-- <section class="create">
+      <label for="upload">
+        <header class="header">
+          <figure class="header__logo-container">
+            <img src="http://via.placeholder.com/250x150?text=Загрузите+Фото+Машины" class="header__logo" alt="Niva" />
+            <figcaption class="header__title"><input class="create__name" type="text" placeholder="Имя машины" required>
+            </figcaption>
+          </figure>
+        </header>
+      </label>
+      <input type="file" class="create__upload" id="upload">
+
+      <h2 class="create__title">Добавить новую машину</h2>
+      <form class="create__form" action="#" method="POST">
+        <section class="car__ctc ctc ctc--create">
+          <img class="ctc__img" src="img/ctc-empty2.jpeg" alt="empty ctc">
+          <input type="text" required placeholder="В724НТ190"
+            class="ctc__property ctc__property--reg  ctc__property--input">
+          <input type="text" required placeholder="X9W113300E0013000"
+            class="ctc__property ctc__property--vin ctc__property--input">
+          <input type="text" required placeholder="ЛАДА ПРИОРА 217030"
+            class="ctc__property ctc__property--marka ctc__property--input">
+          <input type="text" required placeholder="СЕДАН ЛЕГКОВОЙ"
+            class="ctc__property ctc__property--type ctc__property--input">
+          <input type="text" required placeholder="B"
+            class="ctc__property ctc__property--category ctc__property--input">
+          <input type="text" required placeholder="2012" class="ctc__property ctc__property--year ctc__property--input">
+          <input type="text" required placeholder="НЕ УСТАНОВЛЕННО"
+            class="ctc__property ctc__property--shasi ctc__property--input">
+          <input type="text" required placeholder="X9W113300E0013000"
+            class="ctc__property ctc__property--kuzov ctc__property--input">
+          <input type="text" required placeholder="СНЕЖНАЯ КОРОЛЕВА"
+            class="ctc__property ctc__property--color ctc__property--input">
+          <input type="text" required placeholder="72(97,9)"
+            class="ctc__property ctc__property--power ctc__property--input">
+          <input type="text" required placeholder="ЧЕТВЕРТНЫЙ"
+            class="ctc__property ctc__property--eco ctc__property--input">
+          <input type="text" required placeholder="63НР"
+            class="ctc__property ctc__property--pass ctc__property--pass-ser ctc__property--input">
+          <input type="text" required placeholder=" 636752"
+            class="ctc__property ctc__property--pass ctc__property--pass-num ctc__property--input">
+          <input type="text" required placeholder="1578"
+            class="ctc__property ctc__property--mass-max ctc__property--input">
+          <input type="text" required placeholder="1163" class="ctc__property ctc__property--mass ctc__property--input">
+          <input type="text" required placeholder="61 24"
+            class="ctc__property ctc__property--number ctc__property--number-ser ctc__property--input">
+          <input type="text" required placeholder="192204"
+            class="ctc__property ctc__property--number ctc__property--number-num ctc__property--input">
+        </section>
+        <button type="submit" class="btn create__btn">Добавить</button>
+      </form>
+    </section> -->
+
+
+    <section class="spending">
+      <div class="spending__sort">
+        <button type="button" class="btn spending__sort-btn spending__all">Все</button>
+        <button type="button" class="btn spending__sort-btn spending__repair">Ремонт</button>
+        <button type="button" class="btn spending__sort-btn spending__fuel">Бензин</button>
+      </div>
+      <div class="spending__content">
+        <h2 class="spending__title">Ремонт</h2>
+        <table class="spending__table spending__table--repair">
+          <thead>
+            <tr>
+              <th>Запчасти</th>
+              <th>Сумма</th>
+              <th>Киллометраж</th>
+              <th>Дата</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Труба</td>
+              <td>25.000</td>
+              <th>325000</th>
+              <td>25.02.2021</td>
+            </tr>
+            <tr>
+              <td>Колонка</td>
+              <td>415.000</td>
+              <th>125000</th>
+              <td>26.02.2021</td>
+            </tr>
+            <tr>
+              <td colspan="4"><button type="button" class="btn spending__table-btn">Добавить новую запись</button></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 class="spending__title">Бензин</h2>
+        <table class="spending__table spending__table--repair">
+          <thead>
+            <tr>
+              <th>Кол-во Литров</th>
+              <th>Цена за литр</th>
+              <th>Сумма</th>
+              <th>Киллометраж</th>
+              <th>Дата</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>23</th>
+              <th>32</th>
+              <th>325000</th>
+              <th>5000</th>
+              <th>26.02.2021</th>
+            </tr>
+            <tr>
+              <th>65</th>
+              <th>50</th>
+              <th>355000</th>
+              <th>15000</th>
+              <th>27.02.2021</th>
+            </tr>
+            <tr>
+              <td colspan="6"><button type="button" class="btn spending__table-btn">Добавить новую запись</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
   </div>
 
-
-
-  <script defer src="js/app.js"></script>
+  <script defer type="module" src="js/app.js"></script>
 </body>
 
 </html>

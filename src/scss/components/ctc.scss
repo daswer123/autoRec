@@ -12,15 +12,6 @@
     list-style: none;
   }
 
-  &__item {
-  }
-
-  &__name {
-  }
-
-  &__value {
-  }
-
   &__img {
     width: 100%;
     height: 100%;
@@ -37,90 +28,172 @@
 
     // font-weight: bold;
     // color: darken($grey, 20%);
-  }
 
-  &__property--reg {
-    top: 113px;
-    left: 210px;
-  }
+    &--input {
+      border: 0;
+      background-color: inherit;
+      width: 150px;
+    }
 
-  &__property--vin {
-    top: 153px;
-    left: 60px;
-  }
+    &--reg {
+      top: 113px;
+      left: 210px;
 
-  &__property--marka {
-    letter-spacing: -1px;
+      width: 110px;
+    }
 
-    top: 172px;
-    left: 150px;
-  }
+    &--vin {
+      top: 153px;
+      left: 60px;
+    }
 
-  &__property--type {
-    top: 192px;
-    left: 90px;
-  }
+    &--input + &--vin {
+      width: 170px;
+    }
 
-  &__property--category {
-    top: 212px;
-    left: 265px;
-  }
+    &--marka {
+      letter-spacing: -1px;
 
-  &__property--year {
-    top: 232px;
-    left: 180px;
-  }
+      top: 172px;
+      left: 150px;
+    }
 
-  &__property--shasi {
-    top: 252px;
-    left: 110px;
+    &--input + &--marka {
+      left: 145px;
+      width: 170px;
+    }
 
-    min-width: 165px;
-  }
+    &--type {
+      top: 192px;
+      left: 90px;
+    }
 
-  &__property--kuzov {
-    top: 270px;
-    left: 110px;
-  }
+    &--category {
+      top: 212px;
+      left: 265px;
+    }
 
-  &__property--color {
-    top: 291px;
-    left: 70px;
-  }
+    &--input + &--category {
+      width: 60px;
+    }
 
-  &__property--power {
-    top: 311px;
-    left: 266px;
-  }
+    &--year {
+      top: 232px;
+      left: 180px;
+    }
 
-  &__property--eco {
-    top: 332px;
-    left: 190px;
-  }
+    &--input + &--year {
+      width: 60px;
+    }
 
-  &__property--pass {
-    top: 350px;
-    left: 178px;
-  }
+    &--shasi {
+      top: 252px;
+      left: 110px;
 
-  &__property--mass-max {
-    top: 370px;
-    left: 250px;
-  }
+      min-width: 165px;
+    }
 
-  &__property--mass {
-    top: 390px;
-    left: 210px;
-  }
+    &--kuzov {
+      top: 270px;
+      left: 110px;
+    }
 
-  &__property--number {
-    bottom: 8px;
-    left: 50%;
+    &--input + &--kuzov {
+      width: 170px;
+    }
 
-    font-size: 2.3rem;
-    color: darken(crimson, 20%);
-    font-weight: bold;
+    &--color {
+      top: 291px;
+      left: 65px;
+    }
 
-    transform: translateX(-40%);
+    &--input + &--color {
+      width: 190px;
+    }
+
+    &--power {
+      top: 311px;
+      left: 266px;
+    }
+
+    &--input + &--power {
+      width: 60px;
+    }
+
+    &--eco {
+      top: 332px;
+      left: 190px;
+    }
+
+    &--input + &--eco {
+      width: 120px;
+    }
+
+    &--pass {
+      top: 350px;
+
+      &-ser {
+        left: 178px;
+      }
+      &-num {
+        left: 240px;
+      }
+    }
+
+    &--input + &--pass {
+      width: 80px;
+    }
+
+    &--input + &--pass-ser {
+      width: 40px;
+    }
+
+    &--mass-max {
+      top: 370px;
+      left: 250px;
+    }
+
+    &--input + &--mass-max {
+      width: 60px;
+    }
+
+    &--mass {
+      top: 390px;
+      left: 210px;
+    }
+
+    &--input + &--mass {
+      width: 60px;
+    }
+
+    &--number {
+      bottom: 8px;
+      left: 50%;
+
+      font-size: 2.3rem;
+      color: darken(crimson, 20%);
+      font-weight: bold;
+
+      transform: translateX(-40%);
+    }
+
+    &--number-num::after {
+      content: "#";
+      color: red;
+    }
+
+    &--input + &--number {
+      // width: 170px;
+      width: 80px;
+    }
+
+    &--input + &--number-ser {
+      width: 60px;
+      transform: translateX(-90%);
+    }
+
+    &--input + &--number-num {
+      transform: translateX(15%);
+    }
   }
 }

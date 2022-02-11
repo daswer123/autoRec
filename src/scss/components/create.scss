@@ -1,0 +1,40 @@
+.create {
+  &__title {
+    font-size: 2.2rem;
+    text-align: center;
+
+    margin-top: 2rem;
+
+    color: black;
+  }
+
+  &__form {
+  }
+
+  &__btn {
+    display: block;
+    margin: 2rem auto;
+  }
+
+  &__upload {
+    display: block;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  &__name {
+    border: 0;
+    background-color: rgba($green-light, 0);
+
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    color: white;
+    text-align: center;
+
+    &::placeholder {
+      color: white;
+    }
+  }
+}
