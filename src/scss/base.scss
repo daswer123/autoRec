@@ -18,8 +18,22 @@ body {
 }
 
 .container {
-  max-width: 320px;
+  max-width: 350px;
   margin: 0 auto;
 
   // margin-top: 5rem;
 }
+
+.container-nm {
+  max-width: 400px;
+
+  // margin-top: 5rem;
+}
+
+// .container__content {
+//   color: white;
+//   font-size: 2rem;
+//   width: 100%;
+//   min-height: 100vh;
+//   background-color: black;
+// }
