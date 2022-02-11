@@ -16,26 +16,29 @@
 
   <title>AutoRec</title>
   <link rel="stylesheet" href="scss/style.scss" />
-  <script defer src="js/app.js"></script>
+
 </head>
 
 <body>
   <div class="container">
     <!-- LOGIN -->
-    <form action="#" class="auth auth--login" action="#" method="GET">
+    <form action="#" class="auth auth--login active" action="#" method="GET">
       <input type="text" class="auth__input" name="username" placeholder="Введите логин">
       <input type="password" class="auth__input" name="password" placeholder="Введите пароль">
       <button type="submit" class="auth__btn">Login</button>
       <p class="auth__add"><a href="#login" class="auth__change">Создать новый аккаунт</a></p>
     </form>
     <form action="#" class="auth auth--register" action="#" method="POST">
-      <input type="text" class="auth__input" name="username" placeholder="Введите логин">
-      <input type="password" class="auth__input" name="password" placeholder="Введите пароль">
-      <input type="password" class="auth__input" name="password" placeholder="Введите ещё раз">
-      <button type="submit" class="auth__btn">Зарегистрироватся</button>
-      <p class="auth__add"> <a href="#register" class="auth__change">Войдити</a></p>
+      <input type="text" class="auth__input" name="username" placeholder="Придумайте логин">
+      <input type="password" class="auth__input" name="password" placeholder="Придумайте пароль">
+      <button type="submit" class="auth__btn">Register</button>
+      <p class="auth__add"> <a href="#register" class="auth__change">Войти в аккаунт</a></p>
     </form>
   </div>
+
+
+
+  <script defer src="js/app.js"></script>
 </body>
 
 </html>

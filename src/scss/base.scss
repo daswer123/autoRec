@@ -7,12 +7,14 @@
 }
 
 html {
-  font-size: baseFontSize(8px);
+  font-size: baseFontSize(9px);
 }
 
 body {
   box-sizing: border-box;
   background-image: linear-gradient(90deg, $green-light, $green);
+
+  min-height: 100vh;
 }
 
 .container {
