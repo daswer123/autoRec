@@ -1,4 +1,11 @@
 .ctc {
+  display: flex;
+  align-items: center;
+  width: 265px;
+  height: 380px;
+
+  margin: 0 auto;
+  margin-top: 2rem;
   &__list {
     list-style: none;
   }
@@ -10,5 +17,62 @@
   }
 
   &__value {
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__property {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+
+  &__property--reg {
+  }
+
+  &__property--vin {
+  }
+
+  &__property--marka {
+  }
+
+  &__property--type {
+  }
+
+  &__property--category {
+  }
+
+  &__property--year {
+  }
+
+  &__property--shasi {
+  }
+
+  &__property--kuzov {
+  }
+
+  &__property--color {
+  }
+
+  &__property--power {
+  }
+
+  &__property--eco {
+  }
+
+  &__property--pass {
+  }
+
+  &__property--mass-max {
+  }
+
+  &__property--mass {
+  }
+
+  &__property--number {
   }
 }
