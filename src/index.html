@@ -51,7 +51,6 @@
 
 
     <!-- CAR -->
-    <!-- CTC ON IMAGE -->
     <!-- <main class="car ">
       <section class="car__ctc ctc">
 
@@ -82,6 +81,7 @@
     </main> -->
 
     <!-- CREATE FORM -->
+
     <!-- <section class="create">
       <label for="upload">
         <header class="header">
@@ -93,8 +93,6 @@
         </header>
       </label>
       <input type="file" class="create__upload" id="upload">
-
-      <h2 class="create__title">Добавить новую машину</h2>
       <form class="create__form" action="#" method="POST">
         <section class="car__ctc ctc ctc--create">
           <img class="ctc__img" src="img/ctc-empty2.jpeg" alt="empty ctc">
@@ -135,15 +133,17 @@
       </form>
     </section> -->
 
+    <!-- SPENDINGS -->
 
     <section class="spending">
       <div class="spending__sort">
         <button type="button" class="btn spending__sort-btn spending__all">Все</button>
-        <button type="button" class="btn spending__sort-btn spending__repair">Ремонт</button>
+        <button type="button" class="btn spending__sort-btn spending__repair">Сервис</button>
         <button type="button" class="btn spending__sort-btn spending__fuel">Бензин</button>
+        <button type="button" class="btn spending__sort-btn spending__other">Прочее</button>
       </div>
       <div class="spending__content">
-        <h2 class="spending__title">Ремонт</h2>
+        <h2 class="spending__title">Сервис</h2>
         <table class="spending__table spending__table--repair">
           <thead>
             <tr>
@@ -203,6 +203,38 @@
               <td colspan="6"><button type="button" class="btn spending__table-btn">Добавить новую запись</button></td>
             </tr>
           </tbody>
+
+        </table>
+
+        <h2 class="spending__title">Прочее</h2>
+        <table class="spending__table spending__table--other">
+          <thead>
+            <tr>
+              <th>Трата</th>
+              <th>Сумма</th>
+              <th>Киллометраж</th>
+              <th>Дата</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>23</th>
+              <th>325000</th>
+              <th>5000</th>
+              <th>26.02.2021</th>
+            </tr>
+            <tr>
+              <th>65</th>
+              <th>355000</th>
+              <th>15000</th>
+              <th>27.02.2021</th>
+            </tr>
+            <tr>
+              <td colspan="6"><button type="button" class="btn spending__table-btn">Добавить новую запись</button></td>
+            </tr>
+          </tbody>
+
         </table>
       </div>
     </section>
